@@ -7,12 +7,12 @@ import { Auth } from '@/pages/Auth/Auth';
 import { Home } from '@/pages/Home/Home';
 import { Notfound } from '@/pages/Notfound/Notfound';
 
+import { Payments } from './pages/Payments/Payments';
 import { Channel } from './pages/Workspace/Channel/Channel';
 import { JoinPage } from './pages/Workspace/JoinPage';
 import { WorkspaceLayout } from './pages/Workspace/Layout';
-import { Payments } from './pages/Payments/Payments';
 
-export const AppRoutes = () => {
+export const `AppRoutes = () => {
     return (
         <Routes>
           <Route path="/auth/signup" element={<Auth><SignupContainer /></Auth>} />
